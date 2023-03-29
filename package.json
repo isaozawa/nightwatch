@@ -1,0 +1,32 @@
+{
+  "name": "nightwatchJS",
+  "version": "1.0.0",
+  "description": "descrição",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nightwatch --env cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaozawa/nightwatch.git"
+  },
+  "keywords": [
+    "e2e",
+    "nightwatch",
+    "testAutomation"
+  ],
+  "author": "Isabelle Ozawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaozawa/nightwatch/issues"
+  },
+  "homepage": "https://github.com/isaozawa/nightwatch#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^111.0.0",
+    "cucumber": "^6.0.7",
+    "geckodriver": "^3.2.0",
+    "nightwatch": "^2.6.19"
+  }
+}
